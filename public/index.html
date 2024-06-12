@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel to HTML Table Code</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Upload your Excel file to generate HTML table code</h1>
+        <form id="uploadForm" enctype="multipart/form-data">
+            <input type="file" name="file" id="fileInput" accept=".xlsx, .xls" required>
+            <label for="openNewTab">Open links in new tab</label>
+            <input type="checkbox" id="openNewTab" name="openNewTab">
+            <button type="submit">Upload and Generate</button>
+        </form>
+        <textarea id="result" readonly></textarea>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
