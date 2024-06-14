@@ -1,0 +1,24 @@
+App 1787740 output: /opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/node-loader.js:80
+App 1787740 output: 	return originalRequire.apply(this, arguments);
+App 1787740 output:                         ^
+App 1787740 output: Error [ERR_REQUIRE_ESM]: require() of ES Module /home/leda9571/xls2html.alliantech.net/serverexpress.js from /opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/node-loader.js not supported.
+App 1787740 output: Instead change the require of serverexpress.js in /opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/node-loader.js to a dynamic import() which is available in all CommonJS modules.
+App 1787740 output:     at Module.require (/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/node-loader.js:80:25)
+App 1787740 output:     at loadApplication (/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/node-loader.js:243:2)
+App 1787740 output:     at setupEnvironment (/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/node-loader.js:214:2)
+App 1787740 output:     at Object.<anonymous> (/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/node-loader.js:133:1) {
+App 1787740 output:   code: 'ERR_REQUIRE_ESM'
+App 1787740 output: }
+App 1787740 output: Node.js v20.12.2
+App 1787864 output: /opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/node-loader.js:80
+App 1787864 output: 	return originalRequire.apply(this, arguments);
+App 1787864 output:                         ^
+App 1787864 output: Error [ERR_REQUIRE_ESM]: require() of ES Module /home/leda9571/xls2html.alliantech.net/serverexpress.js from /opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/node-loader.js not supported.
+App 1787864 output: Instead change the require of serverexpress.js in /opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/node-loader.js to a dynamic import() which is available in all CommonJS modules.
+App 1787864 output:     at Module.require (/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/node-loader.js:80:25)
+App 1787864 output:     at loadApplication (/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/node-loader.js:243:2)
+App 1787864 output:     at setupEnvironment (/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/node-loader.js:214:2)
+App 1787864 output:     at Object.<anonymous> (/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/node-loader.js:133:1) {
+App 1787864 output:   code: 'ERR_REQUIRE_ESM'
+App 1787864 output: }
+App 1787864 output: Node.js v20.12.2

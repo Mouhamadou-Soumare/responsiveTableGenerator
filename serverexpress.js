@@ -1,8 +1,8 @@
-import express from 'express';
-import multer from 'multer';
-import xlsx from 'xlsx';
-import path from 'path';
-import 'dotenv/config';
+const express = require('express');
+const multer = require('multer');
+const xlsx = require('xlsx');
+const path = require('path');
+require('dotenv').config();
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -47,7 +47,7 @@ const generateHtmlTable = (filePath, openNewTab) => {
             <div class="product-table-col product-table-col4">
                 <p><b>${data[0][3]}</b></p>
             </div>
-            <div class="product-table-col product-table-col6">
+            <div class="product-table-col product-table-col5">
                 <p><b>${data[0][4]}</b></p>
             </div>
         </li>`;

@@ -15,4 +15,8 @@ document.getElementById('uploadForm').addEventListener('submit', async function(
 
     const result = await response.text();
     document.getElementById('result').value = result;
+
+    Prism.highlightAll();
+
+
 });
